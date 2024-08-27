@@ -12,15 +12,15 @@ let myCollection = []
 
  function showCollection(collection) {
   console.log('should show my collection of albums');
-  for (let i = 0; i < collection; i++) {
-    console.log('title by artist, published in yearPublished');
-    
+  for (let i = 0; i < collection.length; i++) { 
     
   }
  }
 
- showCollection('');
-
+ showCollection('show my collection' , myCollection);
+//  showCollection(`${collection[i].title} ${collection[i].artist}`)
+//could not figure out how to take an array
+//and loops over it and correctly logs each item. 
 
  for (let i = 0; i <myCollection.length; i++) {
  console.log('calling every item until the end', [i]);  
